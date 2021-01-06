@@ -1,0 +1,50 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name-tag {
+    background-color: lightgrey;
+    padding: 8px;
+}
+
+.center-tag {
+    background-color: red;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    border: black;
+    border-style: solid;
+}
+
+.hello {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.my-name-is {
+    text-align: center;
+    color: white;
+}
+
+.name {
+    background-color: white;
+    height: 100px;
+    font-size: 35px;
+    text-align: center;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
