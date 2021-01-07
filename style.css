@@ -42,7 +42,7 @@ body {
 
 .name {
     background-color: white;
-    height: 100px;
+    height: 150px;
     font-size: 35px;
     text-align: center;
     font-family: cursive;
@@ -61,4 +61,10 @@ body {
     justify-content: center;
     align-items: center;
     align-content: flex-start;
+}
+header {
+    display: grid;
+    grid-template-rows: 45px 30px 140px 35px;
+
+
 }
