@@ -7,19 +7,44 @@
     <title>Name Tag</title>
 </head>
 
-    <body>
+    <body id='background-color'>
         <div class="name-tag">
-            <header class="center-tag">
+            <header class="center-tag" id='nametag-color'>
                 <h1 class="hello">
                     HELLO
                 </h1>
                 <h2 class="my-name-is">
                     my name is
                 </h2>
-                <h3 class="name">
+                <h3 id='name-place' class="name">
                     Casey Warren
                 </h3>
+                <h2 id='pronoun-place' class='pronoun-place'>
+                    pronouns
+                </h2>
             </header>
         </div>
+        <input id='name-input'>
+        <button id='name-button'> CHANGE NAME </button>   
+
+        <input id='pronoun-input'>
+        <button id='pronoun-button'> CHANGE PRONOUNS </button>
+        
+        <p></p>
+        
+        <button id='background-button-yellow'>CHANGE BACKGROUND COLOR TO YELLOW</button>
+        
+        <button id='background-button-pink'>CHANGE BACKGROUND COLOR TO PINK</button>
+
+        <button id='background-button-orange'>CHANGE BACKGROUND COLOR TO ORANGE</button>
+
+        <p></p>
+
+        <button id='pink-nametag'>CHANGE NAMETAG COLOR TO PINK</button>
+
+        <button id='green-nametag'>CHANGE NAMETAG COLOR TO GREEN</button>
+
+
+        <script type="module" src="app.js"></script>
     </body>
 </html>
